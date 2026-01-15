@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Datang di Hagai Web Services</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a href="#" class="nav-logo" onclick="return false;">
+        <img src="kualanamu.png" alt="Logo Kualanamu" id="landing-logo-img">
+    </a>
+    <header class="promo-header">
+        <h2 class="dynamic-slide-title"></h2>
+    </header>
+    <main class="page-content">
+        <section id="top-carousel-section">
+            <div class="dynamic-background"></div>
+            <div class="swiper-container-3d">
+                <div class="swiper-wrapper"></div>
+            </div>
+        </section>
+
+        <!-- Hagai Services Info -->
+        <div class="hagai-card">
+            <h1>Hagai Web Services</h1>
+            <p>Jasa Pembuatan Website & Sistem Informasi Tenant.</p>
+            <p><strong>Status:</strong> Open for Projects / Research Collaboration.</p>
+            <hr>
+            <p>Hubungi: hagaisinulingga25@gmail.com</p>
+        </div>
+        <div class="login-section-wrapper">
+            <span id="login-countdown-text"></span>
+            <div class="login-button-container">
+                <div class="login-prompt">
+                    <div class="login-prompt-arrow"><i class="fas fa-chevron-up"></i></div>
+                    <p class="login-prompt-text">Klik Banner di Atas untuk Login</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div id="promoModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div class="modal-header">
+                <img id="modal-logo" src="" alt="Tenant Logo" class="modal-logo">
+                <h3 id="modal-company-name"></h3>
+            </div>
+            <img id="modal-image" src="" alt="Promo Image" class="modal-image">
+            <h4 id="modal-promo-title"></h4>
+            <p id="modal-description" class="modal-description"></p>
+            <div id="modal-countdown"
+                style="font-size: 1.2em; margin-top: 15px; font-weight: bold; color: var(--primary-color);"></div>
+            <!-- tombol skip akan diinject oleh JS -->
+        </div>
+    </div>
+    <div id="premium-banner-overlay" class="premium-overlay" style="display:none;">
+        <div id="premium-banner-popup" class="premium-popup">
+            <div class="premium-banner-title" id="premium-banner-title">Judul Promo Premium</div>
+            <img src="logo_running_text.png" alt="Premium Banner" class="premium-banner-img" />
+            <button id="skip-premium-btn" class="skip-premium-btn" style="display:none;">Lewati</button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>window.LARAVEL_BASE = ".";</script>
+    <script src="script.js"></script>
+</body>
+
+</html>

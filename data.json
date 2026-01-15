@@ -1,0 +1,60 @@
+{
+    "success": true,
+    "activePromos": [
+        {
+            "id": 1,
+            "title": "Promo Diskon 50% Starbucks",
+            "description": "Dapatkan diskon 50% untuk pembelian kedua semua varian.",
+            "image_path": "logo_68736bceaf26d.png",
+            "tenant_id": 1,
+            "tenant_name": "Starbucks Kualanamu",
+            "tenant_company_name": "Starbucks Coffee",
+            "tenant_logo_path": "logo_VKlkha7FGm.png",
+            "tenant_description": "Coffee Shop Premium",
+            "tenant_address": "Terminal Keberangkatan Lt. 2",
+            "tenant_website": "https://starbucks.co.id",
+            "status": "approved",
+            "is_premium": 0,
+            "promo_type": "tanggal",
+            "start_date": "2024-01-01",
+            "end_date": "2030-12-31",
+            "clicks_achieved": 0,
+            "click_quota": 1000
+        },
+        {
+            "id": 2,
+            "title": "Buy 1 Get 1 Free",
+            "description": "Beli 1 gratis 1 untuk menu spesial hari ini.",
+            "image_path": "logo_68736bceaf26d.png",
+            "tenant_id": 2,
+            "tenant_name": "Burger King",
+            "tenant_company_name": "Burger King",
+            "tenant_logo_path": "logo_VKlkha7FGm.png",
+            "tenant_description": "Fast Food",
+            "tenant_address": "Area Public Hall",
+            "tenant_website": "https://burgerking.id",
+            "status": "approved",
+            "is_premium": 1,
+            "premium_start_date": "2024-01-01",
+            "premium_end_date": "2030-12-31",
+            "promo_type": "klik",
+            "clicks_achieved": 50,
+            "click_quota": 200
+        }
+    ],
+    "settings": {
+        "landingPageSettings": {
+            "logo": "kualanamu.png",
+            "runningText": "Selamat Datang di Bandara Internasional Kualanamu || Nikmati Fasilitas WiFi Gratis || Silakan Login untuk Melanjutkan",
+            "defaultSlideImage": "kualanamu.png",
+            "defaultPromoTitle": "Informasi Bandara",
+            "defaultHeaderText": "Bandara Internasional Kualanamu"
+        },
+        "defaultPopupSettings": {
+            "logo": "kualanamu.png",
+            "companyName": "Angkasa Pura Aviasi",
+            "description": "Selamat datang di Kualanamu",
+            "website": "https://kualanamu-airport.co.id"
+        }
+    }
+}
