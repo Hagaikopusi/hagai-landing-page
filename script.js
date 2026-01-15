@@ -336,7 +336,7 @@ document.addEventListener('DOMContentLoaded',
                 }
             }, 1000);
             skipBtn.onclick = async function () {
-                window.location.href = 'wifi-connected.html';
+                window.location.href = '';
             };
         }
 
